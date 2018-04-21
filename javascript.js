@@ -15,7 +15,6 @@ var celebrity = [
 	"how can mirrors be real if our eyes aren't real?", //Jaden Smith
 	"if newborn babies could speak they would be the most intelligent beings on planet Earth.", //Jaden Smith
 	"school is the tool to brainwash the youth.", //Jaden Smith
-	"don't worry Bae I'll talk to you about SpaceTime over FaceTime.", //Jaden Smith
 	"what do I have to do to get a simple persian rug with cherub imagery uuuuugh", //Kanye West
 	"fuck any game company that puts in-app purchases in kids games!!!", //Kanye West, this one isn't funny, fuck those guys.
 	"you may be talented but you're not Kanye West.", //Kanye West
