@@ -1,24 +1,30 @@
 // JavaScript Document
 var philosopher = [
-	"The will to win, the desire to succeed, the urge to reach your full potential...",
-	"Our greatest glory is not in never failing,",
-	"The superior man understands what is right; the inferior man",
-	"Apply yourself both now and in the next life. Without effort, you cannot be prosperous. Though the land be good, you cannot have an abundant crop without",
-	"Dignity does not consist in possessing honors, but",
-	"It is just that we should be grateful, not only to those with whose views we may agree, but also to those who have expressed",
+	"The will to win, the desire to succeed, the urge to reach your full potential...", //"these are the keys that will unlock the door to personal excellence. " -Confucius
+	"Our greatest glory is not in never failing, but", //"in rising every time we fall" -Confucius
+	"The superior man understands what is right; the inferior man understands", //"what will sell." -Confucius
+	"Apply yourself both now and in the next life. Without effort, you cannot be prosperous. Though the land be good,", //"you cannot have an abundant crop without cultivation." -Plato
+	"Dignity does not consist in possessing honors, but", //"in deserving them" -Aristotle
+	"It is just that we should be grateful, not only to those with whose views we may agree, but also to those who have expressed", //"more superficial views; for these also contributed something, by developing before us the powers of thought." -Aristotle
+	"The only true wisdom is in knowing", //"you know nothing" -Socrates
+	"Wisdom is not a product of schooling but", //"of the lifelong attempt to acquire it.'" -Albert Einstein
+	"The first and greatest victory is to conquer yourself;", //"to be conquered by yourself is of all things most shameful and vile." -Plato
 ];
 var celebrity = [
-	"dying Is MainStream. #MONEY",
-	"how can mirrors be real if our eyes aren't real?",
-	"if newborn babies could speak they would be the most intelligent beings on planet Earth.",
-	"school is the tool to brainwash the youth.",
-	"don't worry Bae I'll talk to you about SpaceTime over FaceTime.",
-	"what do I have to do to get a simple persian rug with cherub imagery uuuuugh",
-	"fuck any game company that puts in-app purchases in kids games!!!",
-	"you may be talented but you're not Kanye West.",
-	"sometimes I get emotional over fonts.",
-	"Every Ides of March, I order a Caesar Salad and stab it repeatedly with a knife.",
-	"curling are you serious",
+	"dying Is MainStream. #MONEY", //Jaden Smith
+	"how can mirrors be real if our eyes aren't real?", //Jaden Smith
+	"if newborn babies could speak they would be the most intelligent beings on planet Earth.", //Jaden Smith
+	"school is the tool to brainwash the youth.", //Jaden Smith
+	"don't worry Bae I'll talk to you about SpaceTime over FaceTime.", //Jaden Smith
+	"what do I have to do to get a simple persian rug with cherub imagery uuuuugh", //Kanye West
+	"fuck any game company that puts in-app purchases in kids games!!!", //Kanye West, this one isn't funny, fuck those guys.
+	"you may be talented but you're not Kanye West.", //Kanye West
+	"sometimes I get emotional over fonts.", //Kanye West
+	"every Ides of March, I order a Caesar Salad and stab it repeatedly with a knife.", //Conan O'Brien
+	"curling are you serious", //Jose Canseco
+	"there's nothing like changes because nothing changes but changes.", //Gary Busey
+	"when you come to a fork in the road, take it.", //Yogi Berra
+	"you can observe a lot just by watching.", //Yogi Berra
 ];
 var bonus = [
 	"#blessed",
@@ -27,6 +33,7 @@ var bonus = [
 	"#quoteoftheday",
 	"#deep",
 	"#thinkaboutit",
+	"#GoogleIt"
 ];
 
 function getphilosopher() {
