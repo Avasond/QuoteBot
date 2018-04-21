@@ -19,7 +19,6 @@ var celebrity = [
 	"fuck any game company that puts in-app purchases in kids games!!!", //Kanye West, this one isn't funny, fuck those guys.
 	"you may be talented but you're not Kanye West.", //Kanye West
 	"sometimes I get emotional over fonts.", //Kanye West
-	"every Ides of March, I order a Caesar Salad and stab it repeatedly with a knife.", //Conan O'Brien
 	"there's nothing like changes because nothing changes but changes.", //Gary Busey
 	"when you come to a fork in the road, take it.", //Yogi Berra
 	"you can observe a lot just by watching.", //Yogi Berra
