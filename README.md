@@ -1,3 +1,3 @@
-# TylerBot
+# QuoteBot
 
-Do not attempt to understand.
+Generate profound knowledge
