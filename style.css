@@ -1,0 +1,32 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
+body {
+	font-family: 'Muli', sans-serif;
+}
+button {
+	width: 300px;
+	padding: 8px 12px;
+	margin: 8px 0 0;
+	font-family: "Lato", Arial, sans-serif, sans-serif;
+	border: 2px solid #4caf50;
+	background: 0;
+	color: #5a5a6e;
+	cursor: pointer;
+	transition: all .3s
+}
+button:hover {
+	background: #4caf50;
+	color: #fff
+}
+.container-fluid {
+	height: 100%;
+	width: 100%;
+}
+.row {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+p {font-size: 8px;
+}
