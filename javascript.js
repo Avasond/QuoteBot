@@ -1,5 +1,5 @@
 // JavaScript Document
-var prefixL = [
+var philosopher = [
 	"The will to win, the desire to succeed, the urge to reach your full potential...",
 	"Our greatest glory is not in never failing,",
 	"The superior man understands what is right; the inferior man",
@@ -7,48 +7,49 @@ var prefixL = [
 	"Dignity does not consist in possessing honors, but",
 	"It is just that we should be grateful, not only to those with whose views we may agree, but also to those who have expressed",
 ];
-var phraseL = [
-	"dying Is MainStream #MONEY",
-	"How Can Mirrors Be Real If Our Eyes Aren't Real",
-	"If Newborn Babies Could Speak They Would Be The Most Intelligent Beings On Planet Earth",
-	"School Is The Tool To Brainwash The Youth",
-	"don't Worry Bae I'll Talk To You About SpaceTime Over FaceTime",
-	"What do I have to do to get a simpler persian rug with cherub imagery uuuuugh",
+var celebrity = [
+	"dying Is MainStream. #MONEY",
+	"how can mirrors be real if our eyes aren't real?",
+	"if newborn babies could speak they would be the most intelligent beings on planet Earth.",
+	"school is the tool to brainwash the youth.",
+	"don't worry Bae I'll talk to you about SpaceTime over FaceTime.",
+	"what do I have to do to get a simple persian rug with cherub imagery uuuuugh",
 	"fuck any game company that puts in-app purchases in kids games!!!",
-	"you may be talented but you're not kanye west",
-	"sometimes I get emotional over fonts",
-	"Every Ides of March, I order a Caesar Salad and stab it repeatedly with a knife",
-	"Curling are you serious",
+	"you may be talented but you're not Kanye West.",
+	"sometimes I get emotional over fonts.",
+	"Every Ides of March, I order a Caesar Salad and stab it repeatedly with a knife.",
+	"curling are you serious",
 ];
-var bonusL = [
+var bonus = [
 	"#blessed",
 	"#winning",
 	"#humblebrag",
 	"#quoteoftheday",
 	"#deep",
+	"#thinkaboutit",
 ];
 
-function getPrefix() {
-	var randomNumber = Math.floor(Math.random() * (prefixL.length));
-		var prefix = prefixL[randomNumber]; 
-		return prefix;
+function getphilosopher() {
+	var randomNumber = Math.floor(Math.random() * (philosopher.length));
+		var philo = philosopher[randomNumber]; 
+		return philo;
 
 	}
-function getPhrase() {
-	var randomNumber = Math.floor(Math.random() * (phraseL.length));
-		var phrase = phraseL[randomNumber]; 
-		return phrase;
+function getcelebrity() {
+	var randomNumber = Math.floor(Math.random() * (celebrity.length));
+		var celeb = celebrity[randomNumber]; 
+		return celeb;
 
 	}
 function getBonus() {
-	var randomNumber = Math.floor(Math.random() * (bonusL.length));
-		var bonus = bonusL[randomNumber]; 
-		return bonus;
+	var randomNumber = Math.floor(Math.random() * (bonus.length));
+		var bon = bonus[randomNumber]; 
+		return bon;
 
 	}
 
 function getQuote() {
-	var quote = getPrefix() +" "+ getPhrase();
+	var quote = getphilosopher() +" "+ getcelebrity();
 	if(Math.random() > 0.60){
 		quote = quote + " " +getBonus();
 	}
