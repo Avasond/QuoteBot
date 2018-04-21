@@ -19,25 +19,6 @@ var phraseL = [
 	"will surpass",
 	"want your honest thoughts about"
 ];
-var subjectL = [
-	"a female",
-	"Bushiroad Games",
-	"a male",
-	"a black poodle dog",
-	"an interaction-focused facebooker",
-	"30 pages of blocked facebookers",
-	"my local game store",
-	"the average person",
-	"Darkside Games",
-];
-var suffixL = [
-	"coming in the mail.",
-	"at the kitchen table.",
-	"in a lukewarm relationship.",
-	"in an aggressive trade-war.",
-	"in the furry community?",
-	"and nothing more.",
-];
 var bonusL = [
 	"It's gross.",
 	"It's impossible.",
@@ -58,18 +39,6 @@ function getPhrase() {
 	var randomNumber = Math.floor(Math.random() * (phraseL.length));
 		var phrase = phraseL[randomNumber]; 
 		return phrase;
-
-	}
-function getSubject() {
-	var randomNumber = Math.floor(Math.random() * (subjectL.length));
-		var subject = subjectL[randomNumber]; 
-		return subject;
-
-	}
-function getSuffix() {
-	var randomNumber = Math.floor(Math.random() * (suffixL.length));
-		var suffix = suffixL[randomNumber]; 
-		return suffix;
 
 	}
 function getBonus() {
