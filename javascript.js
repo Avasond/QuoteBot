@@ -22,6 +22,7 @@ var celebrity = [
 	"there's nothing like changes because nothing changes but changes.", //Gary Busey
 	"when you come to a fork in the road, take it.", //Yogi Berra
 	"you can observe a lot just by watching.", //Yogi Berra
+	"music isn't for the eyes, it's for the ears" //Adele
 ];
 var bonus = [
 	"#blessed",
