@@ -1,3 +1,3 @@
 # QuoteBot
 
-Generate profound knowledge
+[Generate profound knowledge](https://avasond.github.io/QuoteBot/)
